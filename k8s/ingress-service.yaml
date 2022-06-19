@@ -10,8 +10,8 @@ metadata:
 spec:
   tls:
     - hosts:
-      - javier-kubernetes-test.com
-    secretName: multi-k8s-tls
+        - javier-kubernetes-test.com
+      secretName: multi-k8s-tls
   rules:
     - host: javier-kubernetes-test.com
       http:
